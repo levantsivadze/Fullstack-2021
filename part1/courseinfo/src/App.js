@@ -20,11 +20,8 @@ const App = () => {
 }
 
 const Header = (props) => {
-  return (
-    <>
-    <h1>{props.course}</h1>
-    </>
-  )
+  return <h1>{props.course}</h1>
+   
 }
 
 const Content = (props) => {
@@ -38,20 +35,12 @@ const Content = (props) => {
 }
 
 const Total = (props) => {
-  return (
-    <>
-      <p>Number of exercises {props.total}</p>
-    </>
-  )
+  console.log(props);
+  return  <p>Number of exercises {props.total}</p>
 }
 
 const Part = (props) => {
-  return (
-    <>
-      <p>
-        {props.part} {props.exercise}
-      </p>
-    </>
-  )
+  return   <p>{props.part} {props.exercise}</p>
+   
 }
 export default App
