@@ -53,7 +53,6 @@ const Button = ({handleClick, text}) => (
  <button onClick={handleClick}>{text}</button>
   )
 
-
 const Header = ({text}) => <h1>{text}</h1>
 
 const Statistics = ({good, neutral, bad, counter, average, positive}) => {
