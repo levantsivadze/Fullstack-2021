@@ -63,7 +63,7 @@ const App = () => {
     }
     setSelected(rand)
   }
-
+  
   const handleVote = () => {
     const newPoints = [...points]
     newPoints[selected] += 1
